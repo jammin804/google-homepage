@@ -1,1 +1,92 @@
-/**/
+/*Header*/
+
+nav {
+  float: right;
+  margin: 22px 20px 0 0;
+}
+
+a {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  color: #404040;
+}
+
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+ul li:nth-child(5){
+min-width: 30px;
+min-height: 30px;
+}
+
+
+nav a {
+  color: #000;
+}
+
+
+.pic {
+  background-image: url(../images/profilepic.jpg);
+  width: 32px;
+  height: 32px;
+  background-size: 40px 40px;
+  background-position: center top;
+  border-radius: 50%;
+  position: absolute;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*Main Content*/
+
+.main {
+  clear: both;
+  height: 580px;
+}
+
+center img {
+  width: 275px;
+  padding: 0;
+  margin: 175px 0 -15px;
+  box-sizing: border-box;
+}
+
+
+input[type="search"] {
+  width: 580px;
+}
+
+/*Footer*/
+
+.footer {
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.footer  a {
+  margin-right: 15px;
+}
+
+.footer ul {
+  padding: 0 0 0 20px;
+}
+
+.business {
+  float: left;
+  margin: 0;
+}
+
+.legal  {
+  float: right;
+  margin: 0 20px 0 0;
+}
